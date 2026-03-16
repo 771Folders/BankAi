@@ -64,20 +64,20 @@
                 <com.google.android.material.button.MaterialButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
                     android:layout_marginHorizontal="8dp"
-                    app:cornerRadius="12dp"
+                    android:layout_weight="1"
                     android:backgroundTint="#009"
-                    android:text="Deposit"/>
+                    android:text="Deposit"
+                    app:cornerRadius="12dp" />
 
                 <com.google.android.material.button.MaterialButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
                     android:layout_marginHorizontal="8dp"
-                    app:cornerRadius="12dp"
+                    android:layout_weight="1"
                     android:backgroundTint="#009"
-                    android:text="Withdraw"/>
+                    android:text="Withdraw"
+                    app:cornerRadius="12dp" />
 
             </LinearLayout>
 
@@ -89,8 +89,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="160dp"
-        android:orientation="vertical"
         android:background="#999"
+        android:orientation="vertical"
         android:translationZ="1dp">
 
         <com.google.android.material.card.MaterialCardView
@@ -98,9 +98,9 @@
             android:layout_height="420dp"
             android:layout_gravity="center"
             android:layout_marginTop="70dp"
-            app:cardCornerRadius="24dp"
             android:backgroundTint="#1F65A2E7"
             android:backgroundTintMode="src_atop"
+            app:cardCornerRadius="24dp"
             app:cardElevation="12dp"
             app:strokeColor="@color/cardview_shadow_end_color">
 
@@ -112,133 +112,133 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal"
                     android:layout_marginTop="24dp"
-                    android:gravity="bottom">
+                    android:gravity="bottom"
+                    android:orientation="horizontal">
 
                     <com.google.android.material.button.MaterialButton
                         android:layout_width="115dp"
                         android:layout_height="match_parent"
+                        android:backgroundTint="@android:color/transparent"
                         android:text="Bank Transfer"
-                        android:textSize="12sp"
-                        app:iconGravity="top"
-                        app:iconTint="#009"
-                        app:icon="@android:drawable/toast_frame"
-                        app:iconSize="32dp"
                         android:textColor="@color/black"
-                        android:backgroundTint="@android:color/transparent"/>
+                        android:textSize="12sp"
+                        app:icon="@android:drawable/toast_frame"
+                        app:iconGravity="top"
+                        app:iconSize="32dp"
+                        app:iconTint="#009" />
 
                     <com.google.android.material.button.MaterialButton
                         android:layout_width="115dp"
                         android:layout_height="match_parent"
+                        android:backgroundTint="@android:color/transparent"
                         android:text="Send Money"
-                        android:textSize="12sp"
-                        app:iconGravity="top"
-                        app:iconTint="#009"
-                        app:icon="@android:drawable/toast_frame"
-                        app:iconSize="32dp"
                         android:textColor="@color/black"
-                        android:backgroundTint="@android:color/transparent"/>
+                        android:textSize="12sp"
+                        app:icon="@android:drawable/toast_frame"
+                        app:iconGravity="top"
+                        app:iconSize="32dp"
+                        app:iconTint="#009" />
 
                     <com.google.android.material.button.MaterialButton
                         android:layout_width="115dp"
                         android:layout_height="match_parent"
+                        android:backgroundTint="@android:color/transparent"
                         android:text="Invest Money"
-                        android:textSize="12sp"
-                        app:iconGravity="top"
-                        app:iconTint="#009"
-                        app:icon="@android:drawable/toast_frame"
-                        app:iconSize="32dp"
                         android:textColor="@color/black"
-                        android:backgroundTint="@android:color/transparent"/>
+                        android:textSize="12sp"
+                        app:icon="@android:drawable/toast_frame"
+                        app:iconGravity="top"
+                        app:iconSize="32dp"
+                        app:iconTint="#009" />
 
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:gravity="bottom">
+                    android:gravity="bottom"
+                    android:orientation="horizontal">
 
                     <com.google.android.material.button.MaterialButton
                         android:layout_width="115dp"
                         android:layout_height="match_parent"
+                        android:backgroundTint="@android:color/transparent"
                         android:text="Cards"
-                        android:textSize="12sp"
-                        app:iconGravity="top"
-                        app:iconTint="#009"
-                        app:icon="@android:drawable/toast_frame"
-                        app:iconSize="32dp"
                         android:textColor="@color/black"
-                        android:backgroundTint="@android:color/transparent"/>
+                        android:textSize="12sp"
+                        app:icon="@android:drawable/toast_frame"
+                        app:iconGravity="top"
+                        app:iconSize="32dp"
+                        app:iconTint="#009" />
 
                     <com.google.android.material.button.MaterialButton
                         android:layout_width="115dp"
                         android:layout_height="match_parent"
+                        android:backgroundTint="@android:color/transparent"
                         android:text="Buy Load"
-                        android:textSize="12sp"
-                        app:iconGravity="top"
-                        app:iconTint="#009"
-                        app:icon="@android:drawable/toast_frame"
-                        app:iconSize="32dp"
                         android:textColor="@color/black"
-                        android:backgroundTint="@android:color/transparent"/>
+                        android:textSize="12sp"
+                        app:icon="@android:drawable/toast_frame"
+                        app:iconGravity="top"
+                        app:iconSize="32dp"
+                        app:iconTint="#009" />
 
                     <com.google.android.material.button.MaterialButton
                         android:layout_width="115dp"
                         android:layout_height="match_parent"
+                        android:backgroundTint="@android:color/transparent"
                         android:text="Pay Bills"
-                        android:textSize="12sp"
-                        app:iconGravity="top"
-                        app:iconTint="#009"
-                        app:icon="@android:drawable/toast_frame"
-                        app:iconSize="32dp"
                         android:textColor="@color/black"
-                        android:backgroundTint="@android:color/transparent"/>
+                        android:textSize="12sp"
+                        app:icon="@android:drawable/toast_frame"
+                        app:iconGravity="top"
+                        app:iconSize="32dp"
+                        app:iconTint="#009" />
 
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:gravity="bottom">
+                    android:gravity="bottom"
+                    android:orientation="horizontal">
 
                     <com.google.android.material.button.MaterialButton
                         android:layout_width="115dp"
                         android:layout_height="match_parent"
+                        android:backgroundTint="@android:color/transparent"
                         android:text="Pay QR"
-                        android:textSize="12sp"
-                        app:iconGravity="top"
-                        app:iconTint="#009"
-                        app:icon="@android:drawable/toast_frame"
-                        app:iconSize="32dp"
                         android:textColor="@color/black"
-                        android:backgroundTint="@android:color/transparent"/>
+                        android:textSize="12sp"
+                        app:icon="@android:drawable/toast_frame"
+                        app:iconGravity="top"
+                        app:iconSize="32dp"
+                        app:iconTint="#009" />
 
                     <com.google.android.material.button.MaterialButton
                         android:layout_width="115dp"
                         android:layout_height="match_parent"
+                        android:backgroundTint="@android:color/transparent"
                         android:text="Rewards"
-                        android:textSize="12sp"
-                        app:iconGravity="top"
-                        app:iconTint="#009"
-                        app:icon="@android:drawable/toast_frame"
-                        app:iconSize="32dp"
                         android:textColor="@color/black"
-                        android:backgroundTint="@android:color/transparent"/>
+                        android:textSize="12sp"
+                        app:icon="@android:drawable/toast_frame"
+                        app:iconGravity="top"
+                        app:iconSize="32dp"
+                        app:iconTint="#009" />
 
                     <com.google.android.material.button.MaterialButton
                         android:layout_width="115dp"
                         android:layout_height="match_parent"
+                        android:backgroundTint="@android:color/transparent"
                         android:text="Others"
-                        android:textSize="12sp"
-                        app:iconGravity="top"
-                        app:iconTint="#009"
-                        app:icon="@android:drawable/toast_frame"
-                        app:iconSize="32dp"
                         android:textColor="@color/black"
-                        android:backgroundTint="@android:color/transparent"/>
+                        android:textSize="12sp"
+                        app:icon="@android:drawable/toast_frame"
+                        app:iconGravity="top"
+                        app:iconSize="32dp"
+                        app:iconTint="#009" />
 
                 </LinearLayout>
 
@@ -253,10 +253,10 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_gravity="center"
                         android:text="You're all caught up!"
                         android:textColor="@color/white"
-                        android:layout_gravity="center"
-                        android:textSize="24sp"/>
+                        android:textSize="24sp" />
 
                 </com.google.android.material.card.MaterialCardView>
 
@@ -267,11 +267,11 @@
     </LinearLayout>
 
     <com.google.android.material.card.MaterialCardView
-        android:layout_width="wrap_content"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom | center_horizontal"
         android:layout_marginHorizontal="30dp"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="40dp"
         android:translationZ="2dp"
         app:cardCornerRadius="28dp"
         app:cardElevation="12dp"
@@ -280,9 +280,11 @@
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            app:itemActiveIndicatorStyle="none"
+            app:itemActiveIndicatorStyle="@android:color/transparent"
             app:itemGravity="center"
+            app:itemHorizontalTranslationEnabled="true"
             app:itemIconGravity="start"
+            android:paddingTop="14dp"
             app:itemIconSize="0dp"
             app:itemRippleColor="#65A2E7"
             app:itemTextAppearanceActiveBoldEnabled="true"
