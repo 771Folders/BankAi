@@ -8,9 +8,8 @@
     tools:context=".MainActivity">
 
     <com.google.android.material.card.MaterialCardView
-        android:layout_width="420dp"
+        android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:layout_marginLeft="-5dp"
         android:layout_marginTop="-24dp"
         android:backgroundTint="#009"
         android:translationZ="2dp"
@@ -97,7 +96,7 @@
             android:layout_width="350dp"
             android:layout_height="420dp"
             android:layout_gravity="center"
-            android:layout_marginTop="70dp"
+            android:layout_marginTop="90dp"
             android:backgroundTint="#1F65A2E7"
             android:backgroundTintMode="src_atop"
             app:cardCornerRadius="24dp"
@@ -266,30 +265,26 @@
 
     </LinearLayout>
 
-    <com.google.android.material.card.MaterialCardView
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom | center_horizontal"
-        android:layout_marginHorizontal="30dp"
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="bottom"
+        app:itemGravity="center"
+        android:foregroundGravity="top"
+        android:layout_margin="30dp"
         android:layout_marginBottom="40dp"
-        android:translationZ="2dp"
-        app:cardCornerRadius="28dp"
-        app:cardElevation="12dp"
-        app:strokeColor="@color/cardview_shadow_end_color">
-
-        <com.google.android.material.bottomnavigation.BottomNavigationView
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            app:itemActiveIndicatorStyle="@android:color/transparent"
-            app:itemGravity="center"
-            app:itemHorizontalTranslationEnabled="true"
-            app:itemIconGravity="start"
-            android:paddingTop="14dp"
-            app:itemIconSize="0dp"
-            app:itemRippleColor="#65A2E7"
-            app:itemTextAppearanceActiveBoldEnabled="true"
-            app:menu="@menu/home_bottom_navigation" />
-
-    </com.google.android.material.card.MaterialCardView>
+        app:itemPaddingTop="0dp"
+        app:itemPaddingBottom="0dp"
+        android:paddingTop="0dp"
+        android:paddingBottom="0dp"
+        android:elevation="12dp"
+        android:translationZ="3dp"
+        app:itemActiveIndicatorStyle="@android:color/transparent"
+        android:minHeight="40dp"
+        android:background="@drawable/bg_bottom_nav"
+        app:menu="@menu/home_bottom_navigation"
+        app:labelVisibilityMode="labeled"
+        app:itemTextColor="@android:color/black"
+        />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

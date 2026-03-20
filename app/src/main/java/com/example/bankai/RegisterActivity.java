@@ -55,6 +55,7 @@ public class RegisterActivity extends AppCompatActivity {
 
             database.register(username, password);
             Toast.makeText(this, "Account Registered!", Toast.LENGTH_SHORT).show();
+            startActivity(new Intent(this, LoginActivity.class));
         });
 
         binding.cancelBtn.setOnClickListener(view -> startActivity(new Intent(this, LoginActivity.class)));

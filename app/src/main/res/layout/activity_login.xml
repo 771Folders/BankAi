@@ -59,6 +59,7 @@
                 app:boxCornerRadiusBottomStart="16dp"
                 app:boxCornerRadiusTopEnd="16dp"
                 app:boxCornerRadiusTopStart="16dp"
+                app:passwordToggleEnabled="true"
                 app:boxStrokeColor="@color/black"
                 app:hintTextColor="@color/black"
                 android:textColorHint="@color/black"
@@ -66,6 +67,7 @@
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/passwordInput"
+                    android:password="true"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"/>
 
